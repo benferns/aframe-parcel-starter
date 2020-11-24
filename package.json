@@ -1,0 +1,28 @@
+{
+  "name": "aframe-parcel-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html --https",
+    "build": "parcel build src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/60days/aframe-parcel-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/60days/aframe-parcel-starter/issues"
+  },
+  "homepage": "https://github.com/60days/aframe-parcel-starter#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "aframe": "^1.0.4"
+  }
+}
