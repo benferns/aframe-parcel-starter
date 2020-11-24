@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html --https",
+    "prebuild": "rimraf dist",
     "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,7 +21,8 @@
   },
   "homepage": "https://github.com/60days/aframe-parcel-starter#readme",
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.4",
+    "rimraf": "^3.0.2"
   },
   "dependencies": {
     "aframe": "^1.0.4"
